@@ -1,5 +1,5 @@
 # KookooVerify
-Complete suite of API to verify and handle phone number verification
+The complete suite of API for all workflows of Phone Number Verification to prevent spamming and to ensure personal account uniqueness. Obviously this API is a demo and is still in Beta, hence make sure your phone number is *not* in DND and use the API only *between 9am-9pm*.
 
 ## Verify API
 You use Verify API to confirm that a phone number is valid, reachable, and accessible by your user. Using a Verify Request you send
@@ -11,7 +11,7 @@ Verifying phone numbers is a mission-critical process and is typically used for:
 
 By default, the PIN is first sent in an SMS, if there is no reply Verify sends a Voice Call.
 
-## The Verify API workflow
+## Verify API workflow
 To Verify that a phone number is valid, reachable, and accessible by your user you use the:
 
 1. Verify Request: generate and send a PIN to your user. You use the request_id in theResponse for the Verify Check.
