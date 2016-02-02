@@ -9,7 +9,10 @@ Verifying phone numbers is a mission-critical process and is typically used for:
 - Hack protection - if you detect suspicious or significant activities, validate that the person using a phone number owns it.
 - Reach Users - ensure you have the correct phone number to contact your user when you need to.
 
-By default, the PIN is first sent in an SMS, if there is no reply Verify sends a Voice Call. The Verify API workflow To Verify that a phone number is valid, reachable, and accessible by your user you use the:
+By default, the PIN is first sent in an SMS, if there is no reply Verify sends a Voice Call.
+
+## The Verify API workflow
+To Verify that a phone number is valid, reachable, and accessible by your user you use the:
 
 1. Verify Request: generate and send a PIN to your user. You use the request_id in theResponse for the Verify Check.
 > https://hacks-rakheg.rhcloud.com/kookooverify?phone_no=xxxxxxxxxx&brand=MyApp
