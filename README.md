@@ -25,3 +25,11 @@ To Verify that a phone number is valid, reachable, and accessible by your user y
 
 4. Verify Control: control the progress of your Verify Requests.
 > https://hacks-rakheg.rhcloud.com/kookooverify/control?request_id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&cmd=cancel
+
+## Features
+- Resending verification code to an ongoing verification i.e., Concurrent verifications are banned.
+- Only 5 min window to verify code is allowed.
+- Number of invalid tries are logged and only maximum of 3 tries are allowed to avoid hacks and brute force checks.
+- API to query the status of an ongoing verification by using request_id in Search API
+- API to cancel an ongoing verification using the Control API.
+- JavaScript SDK to easily integrate Verification API into Frontend Web Apps.
