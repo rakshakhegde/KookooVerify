@@ -32,4 +32,5 @@ To Verify that a phone number is valid, reachable, and accessible by your user y
 - Number of invalid tries are logged and only maximum of 3 tries are allowed to avoid hacks and brute force checks.
 - API to query the status of an ongoing verification by using request_id in Search API
 - API to cancel an ongoing verification using the Control API.
+- 30 days validity allowed for a number to be marked as Verified which is queried using Search API.
 - JavaScript SDK to easily integrate Verification API into Frontend Web Apps.
