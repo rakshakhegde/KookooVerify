@@ -34,3 +34,7 @@ To Verify that a phone number is valid, reachable, and accessible by your user y
 - API to cancel an ongoing verification using the Control API.
 - 30 days validity allowed for a number to be marked as Verified which is queried using Search API.
 - JavaScript SDK to easily integrate Verification API into Frontend Web Apps.
+
+## How to run
+- Fork this project and run command "python flaskapp.py" at the root directory of this project.
+- The trigger times can be changed under ".openshift/cron" directory. The cron job python script running is cron_job.py under "hacks/kookooverify" directory. This cron job is used to find out the unverified numbers even after two mins of sending the verification code to them and send a Voice Call to them with the verification code as a confirmatory call.
